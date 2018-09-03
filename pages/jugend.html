@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Jugend</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="../style/style.css" rel="stylesheet">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <link rel="icon" href="../images/fire_icon.png" type="image/png" sizes="16x16">
+  <script src="../js/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="../js/scriptSubpage.js" type="text/javascript"></script>
+  <script src="../js/scriptJugend.js" type="text/javascript"></script>
+</head>
+  <body onload="generateNumbers(); generateCards();">
+	<div id="loader">
+    </div>
+    <div id="transitionColor"></div>
+
+    <h4 class="headline">Wähle ein Kärtchen</h4>
+
+    <div id="cardSection">
+
+    </div>
+
+    <div id="navBar">
+      <h3 id="subPageHeadline">Jugend</h3>
+
+      <a href="../index.html">
+        <img src="../images/menu_icon.png" alt="menu" id="menuIcon" class="controlImg">
+      </a>
+
+      <img src="../images/again_arrow.png" alt="menu" id="again_arrow" class="controlImg" onclick="generateNumbers();">
+
+    </div>
+
+
+  </body>
+</html>
