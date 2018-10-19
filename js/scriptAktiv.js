@@ -29,24 +29,25 @@ function generateCards(cardNumber, actualNumber){
 
 switch (actualNumber) {
   case 1:
-    document.getElementById("back" + cardNumber).style.background = "#E80C26";
+    document.getElementById("back" + cardNumber).style.background = "#CF0230";
     break;
   case 2:
-    document.getElementById("back" + cardNumber).style.background = "#E80C26";
+    document.getElementById("back" + cardNumber).style.background = "#CF0230";
     break;
   case 3:
-    document.getElementById("back" + cardNumber).style.background = "#0140B5";
+    document.getElementById("back" + cardNumber).style.background = "#4737A8";
     break;
   case 4:
-    document.getElementById("back" + cardNumber).style.background = "#0140B5";
+    document.getElementById("back" + cardNumber).style.background = "#4737A8";
     break;
   case 5:
-    document.getElementById("back" + cardNumber).style.background = "#FFE200";
+    document.getElementById("back" + cardNumber).style.background = "#F2B100";
     break;
   case 6:
-    document.getElementById("back" + cardNumber).style.background = "#FFE200";
+    document.getElementById("back" + cardNumber).style.background = "#F2B100";
     break;
   default:
-    document.getElementById("back" + cardNumber).style.background = "white";
+    document.getElementById("back" + cardNumber).style.background = "#ffffff";
+    document.getElementById("back" + cardNumber).style.color = "#0E1217";
   }
 }
